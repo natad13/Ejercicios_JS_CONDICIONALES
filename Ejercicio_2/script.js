@@ -1,9 +1,9 @@
-alert("holii");
+
 
 let numero = prompt("Ingresa un numero");
 
 let divi = numero % 2
- if ( numero == 0){
+ if ( divi == 0){
     console.log(`El numero" ${numero} es divisible en 2`)
  }
  else{
