@@ -91,19 +91,19 @@ if (opcion1 == 1 | opcion1 == 2 | opcion1 == 3) {
 
             if (opcion1 =="1") {
 
-                let desc = ((course - ((course *50)/100))*2).toFixed(2);
+                let desc = ((course - ((course *50)/100))*2);
                 document.write(`<h2> Tu Curso tiene un precio total de: ${desc} MX <\h2>`);
             
             }
             else if (opcion1 ==2) {
 
-                let desc = ((carrera - ((carrera * 50)/100))*6).toFixed;
+                let desc = ((carrera - ((carrera * 50)/100))*6);
                 document.write(`<h2> Tu carrera tiene un precio total de: ${desc} MX <\h2>`);
             
             }
             else if (opcion1 ==3) {
 
-                let desc = ((master - ((master * 50)/100))*12).toFixed(2);
+                let desc = ((master - ((master * 50)/100))*12);
                 document.write(`<h2> Tu Master tiene un precio total de: ${desc} MX <\h2>`);
             
             }
